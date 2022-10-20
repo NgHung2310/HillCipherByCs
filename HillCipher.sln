@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HillCipher", "HillCipher\HillCipher.csproj", "{1547BF0D-58C5-4905-A927-87248A4C2141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{B675A96A-4593-40DC-86D3-4AA79BD70024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1547BF0D-58C5-4905-A927-87248A4C2141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1547BF0D-58C5-4905-A927-87248A4C2141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1547BF0D-58C5-4905-A927-87248A4C2141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1547BF0D-58C5-4905-A927-87248A4C2141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B675A96A-4593-40DC-86D3-4AA79BD70024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B675A96A-4593-40DC-86D3-4AA79BD70024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B675A96A-4593-40DC-86D3-4AA79BD70024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B675A96A-4593-40DC-86D3-4AA79BD70024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E090BF1-9FBD-46BA-A9B5-78061EB00290}
+	EndGlobalSection
+EndGlobal
