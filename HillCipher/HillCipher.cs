@@ -114,7 +114,7 @@ namespace HillCipher
             {
                 for (int j = 0; j < arrLevel + i; j++)
                 {
-                    temp1 += arr[j, j + i];
+                    temp1 += arr[j, j + i]; 
                 }
             }
             return det;
