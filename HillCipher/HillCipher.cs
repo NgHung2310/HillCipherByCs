@@ -109,10 +109,14 @@ namespace HillCipher
             int arrLevel = arr.GetLength(0);
             int temp1 = 0;
             int temp2 = 0;
+            int k = 0;
             for (int i = 0; i < arrLevel; i++)
-                for (int j = 0; j < arrLevel; j++)
+            {
+                for (int j = 0; j < arrLevel + i; j++)
                 {
+                    temp1 += arr[j, j + i];
                 }
+            }
             return det;
         }
 
